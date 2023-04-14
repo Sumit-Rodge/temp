@@ -29,6 +29,7 @@ h1{
     height: 55px;
     width: fit-content;
     background-color: rgb(91, 235, 91);
+    border: none;
 }
 li{
     list-style: decimal;
@@ -47,16 +48,12 @@ li{
    background-color: #f0f1ff;
    width: fit-content;
    min-height: 6vh;
-   border: none;
    text-decoration: underline;
    margin-right: 10px;
-   
+   border: none;
 }
 
 @media (max-width: 600px) {
-  body {
-    background-color: #000000;
-  }
      main{
      width: 100vw;
     }
