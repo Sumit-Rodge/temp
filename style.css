@@ -36,7 +36,7 @@ li{
     border-radius: 5%;
     margin: 10px auto;
     background-color: #f0f1ff;
-    min-height: 50px;
+    min-height: 6vh;
     word-wrap:break-word;
     padding: 12px;
     word-break: break-all;
@@ -46,7 +46,7 @@ li{
    font-size: 2rem;
    background-color: #f0f1ff;
    width: fit-content;
-   min-height: 50px;
+   min-height: 6vh;
    border: none;
    text-decoration: underline;
    margin-right: 10px;
@@ -57,10 +57,25 @@ li{
   body {
     background-color: #000000;
   }
-  main{
-    width: 100vw;
-  }
-  #inputField{
-    width: 70vw;
-}
+     main{
+     width: 100vw;
+    }
+    #inputField{
+    width: 60vw;
+    }
+    h1{
+    font-size: 3rem;
+    }
+    #addToDo{
+        font-size: 1rem;
+    }
+    li{
+        height: 10px;
+        font-size: 1.5rem;
+        
+    }
+    .float-right{
+        height: 10px;
+        font-size: 1rem;
+    }
 }
